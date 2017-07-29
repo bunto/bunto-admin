@@ -1,5 +1,8 @@
 [![Gem Version](https://img.shields.io/gem/v/bunto-admin.svg)](https://rubygems.org/gems/bunto-admin)
 [![Build Status](https://travis-ci.org/bunto/bunto-admin.svg?branch=master)](https://travis-ci.org/bunto/bunto-admin)
+[![Build status](https://ci.appveyor.com/api/projects/status/ciih4n6v0yfa5pvm/branch/master?svg=true)](https://ci.appveyor.com/project/SuriyaaKudoIsc/bunto-admin/branch/master)
+[![Coverage Status](https://coveralls.io/repos/github/bunto/bunto-admin/badge.svg?branch=master)](https://coveralls.io/github/bunto/bunto-admin?branch=master)
+[![NPM Dependencies](https://david-dm.org/bunto/bunto-admin.svg)](https://david-dm.org/bunto/bunto-admin)
 
 A Bunto plugin that provides users with a traditional CMS-style graphical interface to author content and administer Bunto sites. The project is divided into two parts. A Ruby-based HTTP API that handles Bunto and filesystem operations, and a Javascript-based front end, built on that API.
 
