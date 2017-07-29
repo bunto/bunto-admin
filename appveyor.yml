@@ -5,7 +5,7 @@ environment:
   RUBY_VERSION: 22
   matrix:
     - TEST_SUITE: node
-    - TEST_SUITE: ruby
+    #- TEST_SUITE: ruby
 
 install:
   - set PATH=C:\Ruby%RUBY_VERSION%\bin;%PATH%
