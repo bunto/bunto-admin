@@ -1,0 +1,26 @@
+title: Bunto Admin
+description: A Bunto plugin that provides users with a traditional CMS-style graphical interface to author content and administer Bunto sites.
+
+collections:
+  frontend:
+    permalink: /frontend/:path/
+    output: true
+
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+
+baseurl: "/bunto-admin"

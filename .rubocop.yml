@@ -1,0 +1,13 @@
+inherit_gem:
+  bunto: .rubocop.yml
+
+AllCops:
+  Exclude:
+    - lib/bunto-admin/public/**/*
+    - src/**/*
+    - node_modules/**/*
+    - Gemfile
+    - bunto-admin.gemspec
+
+Metrics/BlockLength:
+  Enabled: false

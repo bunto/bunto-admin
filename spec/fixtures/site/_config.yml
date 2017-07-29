@@ -1,0 +1,41 @@
+title: Your awesome title
+
+# Load the admin interface.
+gems:
+  - bunto-admin
+
+# Exclude these files from being processed.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+foo: bar
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      all: true
+  - scope:
+      path: ''
+      type: pages
+    values:
+      page_only: true
+  - scope:
+      path: ''
+      type: puppies
+    values:
+      breed: ''
+  - scope:
+      path: 'test'
+      type: posts
+    values:
+      post_test_only: true
+
+# Dummy Collection.
+collections:
+  puppies:
+    foo: bar
+    output: false
